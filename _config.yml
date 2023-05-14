@@ -3,3 +3,11 @@ description: A starter documentation page for zen
 theme: just-the-docs
 
 url: https://ZenPayments.github.io/
+
+logo: "/assets/logo192.png"
+
+favicon_ico : "/assets/favicon.ico"
+
+
+
+footer_content: "Copyright © 2023 Zen Payments All Rights Reserved"
