@@ -8,16 +8,17 @@ nav_order: 1
 
 ### Props 
 
-| Prop Name       | type | required | values    |
-|:----------------|:---  |:---------|:----------|
-| currVal         | `useState` |*| useState[0] |
-| changeCurrVal   | `useState` |*| useState[1] |
-| errorState      | `useState` |*| useState[0] |
-| setErrorState   | `useState` |*|useState[1]  |
-| inputRef        | `useRef`   |*| useRef      |
-| label           | `string`   | ||
-| size            | `string`   | |default: `regular`, medium,<br> small, tiny|
-| error           | `string`   | |default:`Invalid Input`|
-| placeHolder     | `string`   | ||
-| fieldLength     |`int`       | |default:`2`  |
+| Prop Name       | type       | required | values                                    |
+|:----------------|:-----------|:---------|:------------------------------------------|
+| currVal         | `useState` |*         | useState[0]                               |
+| changeCurrVal   | `useState` |*         | useState[1]                               |
+| errorState      | `useState` |*         | useState[0]                               |
+| setErrorState   | `useState` |*         |useState[1]                                |
+| inputRef        | `useRef`   |*         | useRef                                    |
+| label           | `string`   |          |                                           |
+| size            | `string`   |          |default: `regular`, medium,<br> small, tiny|
+| error           | `string`   |          |default:`Invalid Input`                    |
+| placeHolder     | `string`   |          |                                           |
+| fieldLength     | `int`      |          |default:`2`                                |
+
 ----
