@@ -1,7 +1,7 @@
 ---
 title: CheckBox
 layout: default
-parent: signup
+parent: Signup
 nav_order: 2
 ---
 Zen Payments CheckBox Component

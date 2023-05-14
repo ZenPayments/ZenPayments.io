@@ -1,7 +1,7 @@
 ---
 title: Input
 layout: default
-parent: signup
+parent: Signup
 nav_order: 1
 ---
 Zen Payments Input Component

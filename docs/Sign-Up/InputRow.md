@@ -1,7 +1,7 @@
 ---
 title: InputRow
 layout: default
-parent: signup
+parent: Signup
 nav_order: 3
 ---
 Zen Payments InputRow Component
