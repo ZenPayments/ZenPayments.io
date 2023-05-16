@@ -5,7 +5,6 @@ parent: Signup
 ---
 ## Props 
 
-----
 | Prop Name       | type       | required | values                                    |
 |:----------------|:-----------|:---------|:------------------------------------------|
 | label           | `String  ` |*         |   `blank`                                 |
