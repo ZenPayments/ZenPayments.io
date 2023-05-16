@@ -3,5 +3,33 @@ title: TextArea
 layout: default
 parent: Signup
 ---
-Zen Payments TextArea Component
+
+# Textarea Component
+
+## Props 
 ----
+| Prop Name       | type       | required | values                                    |
+|:----------------|:-----------|:---------|:------------------------------------------|
+| currVal         | `useState` |*         | useState[0]                               |
+| changeCurrVal   | `useState` |*         | useState[1]                               |
+| errorState      | `useState` |*         | useState[0]                               |
+| setErrorState   | `useState` |*         | useState[1]                               |
+| inputRef        | `useRef`   |*         | useRef                                    |
+| label           | `string`   |          |                                           |
+| size            | `string`   |          |default: `regular`, medium,<br> small, tiny|
+| error           | `string`   |          |default:`"Invalid Input"`                  |
+| placeHolder     | `string`   |          |                                           |
+| fieldLength     | `int`      |          |default:`2`                                |
+
+## What They Do
+
+`currVal` - State variable to store the input as the user modifies it
+`changeCurrVal` - State function variable to alter the 'currVal' state variable on Change
+`errorState` - State variable that alters whether the error shows or not
+`setErrorState`- State function variable to turn the error message on and off
+`inputRef` - Reference variable that points to the input box
+`label` - Label displayed above the input 
+`size` - How long the input box will be
+`error` - The message that will display if there is an error in the input
+`placeHolder` - The placeholder text of input field
+`fieldLength` - Minimum number of characters input must be to pass. 
