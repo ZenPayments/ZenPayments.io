@@ -10,7 +10,7 @@ parent: Signup
 
 | Prop Name       | type       | required | values                                    |
 |:----------------|:-----------|:---------|:------------------------------------------|
-| label           | `String  ` |*         |   `blank`                                 |
+| label           | `String  ` |*         | default: `blank`                          |
 
 
 ## What They Do

@@ -9,5 +9,5 @@ parent: Signup
 
 ## What It Does
 
-Wrap 2 components within to split them into two equal length cells within the same row
+`children`- Wrap 2 components within to split them into two equal length cells within the same row <br>
 
