@@ -8,6 +8,3 @@ has_children: true
 
 ## Zenpayments Signup Application Docs
 
-
-
-----
