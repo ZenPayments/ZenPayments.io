@@ -2,4 +2,4 @@
 title: API
 layout: default
 ---
-# CheckBox Component
+# API Endpoints
