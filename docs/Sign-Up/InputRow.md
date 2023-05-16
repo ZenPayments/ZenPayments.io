@@ -6,12 +6,6 @@ parent: Signup
 
 # InputRow Layout Component
 
-## Props
-
-| Prop Name       | type       | required | values                                    |
-|:----------------|:-----------|:---------|:------------------------------------------|
-
-
 
 ## What It Does
 
